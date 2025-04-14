@@ -19,7 +19,7 @@ This system pulls in data from multiple sources, injects dynamic formulas, build
 ## Folder Structure
 
 ```
-src
+/src
 ├── main.gs               # Workflow runners (runAllTasks, etc.)
 ├── sheetManager.gs       # Sheet and workbook renaming, sheet imports
 ├── dataPrep.gs           # Formula conversion, type casting
