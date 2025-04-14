@@ -19,16 +19,16 @@ This system pulls in data from multiple sources, injects dynamic formulas, build
 ## Folder Structure
 
 ```
-/src
-├── main.gs               # Workflow runners (runAllTasks, etc.)
-├── sheetManager.gs       # Sheet and workbook renaming, sheet imports
-├── dataPrep.gs           # Formula conversion, type casting
-├── formulas.gs           # Header + formula injection
-├── reporting.gs          # Pivot table generation
-├── visuals.gs            # Charts and annotations
-├── styling.gs            # Gridline/hue formatting and widths
-├── cleanup.gs            # Row/column removal
-└── utils.gs              # Reusable helpers like copy to clipboard
+src/
+├── [main.gs](src/main.gs)             # Workflow runners (runAllTasks, etc.)
+├── [sheetManager.gs](src/sheetManager.gs)   # Sheet and workbook renaming, sheet imports
+├── [dataPrep.gs](src/dataPrep.gs)     # Formula conversion, type casting
+├── [formulas.gs](src/formulas.gs)     # Header + formula injection
+├── [reporting.gs](src/reporting.gs)   # Pivot table generation
+├── [visuals.gs](src/visuals.gs)       # Charts and annotations
+├── [styling.gs](src/styling.gs)       # Gridline/hue formatting and widths
+├── [cleanup.gs](src/cleanup.gs)       # Row/column removal
+└── [utils.gs](src/utils.gs)           # Reusable helpers like copy to clipboard
 ```
 
 ---
