@@ -16,20 +16,19 @@ This system pulls in data from multiple sources, injects dynamic formulas, build
 
 ---
 
-## Folder Structure
+## File Overview
 
-```
-src/
-├── [main.gs](main.gs)             # Workflow runners (runAllTasks, etc.)
-├── [sheetManager.gs](sheetManager.gs)   # Sheet and workbook renaming, sheet imports
-├── [dataPrep.gs](dataPrep.gs)     # Formula conversion, type casting
-├── [formulas.gs](formulas.gs)     # Header + formula injection
-├── [reporting.gs](reporting.gs)   # Pivot table generation
-├── [visuals.gs](visuals.gs)       # Charts and annotations
-├── [styling.gs](styling.gs)       # Gridline/hue formatting and widths
-├── [cleanup.gs](cleanup.gs)       # Row/column removal
-└── [utils.gs](utils.gs)           # Reusable helpers like copy to clipboard
-```
+| File Name          | Description |
+|--------------------|-------------|
+| [main.gs](main.gs)             | Workflow runners (`runAllTasks`, `runRemainingTasks`, etc.) |
+| [sheetManager.gs](sheetManager.gs)     | Copies external sheets, renames sheets and workbook |
+| [dataPrep.gs](dataPrep.gs)         | Converts formulas to values, casts to text, helpers |
+| [formulas.gs](formulas.gs)         | Adds headers and injects dynamic formulas |
+| [reporting.gs](reporting.gs)       | Generates pivot tables |
+| [visuals.gs](visuals.gs)           | Pie charts and styled cell notes |
+| [styling.gs](styling.gs)           | Formatting, column widths, borders |
+| [cleanup.gs](cleanup.gs)           | Deletes extra rows and columns |
+| [utils.gs](utils.gs)               | Utility functions like clipboard copying |
 
 ---
 
