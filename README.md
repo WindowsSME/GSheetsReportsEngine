@@ -1,4 +1,4 @@
-# GSheets Compliance Engine
+# GSheets Reports Engine
 A comprehensive Google Apps Script toolkit for automating compliance reporting and endpoint analytics in Google Sheets.
 This system pulls in data from multiple sources, injects dynamic formulas, builds styled pivot tables, generates charts, and formats reports — all with one click.
 
